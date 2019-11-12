@@ -30,5 +30,5 @@ const Sidebar = ({ module, dispatch }) => (
 );
 
 export default connect(state => ({
-  module: state.modules
+  module: state.course.modules
 }))(Sidebar);
